@@ -1,0 +1,3 @@
+#!/bin/bash
+
+processes.py 2>/dev/null | sed -r '/^\s*$/d' | sort | uniq
